@@ -1,0 +1,8 @@
+Component top
+(
+    user_led : out STD_LOGIC;
+    clk50    : in  STD_LOGIC;
+)
+{
+    
+}

@@ -1,0 +1,11 @@
+Main
+(
+    led : out STD_LOGIC := '0';
+)
+{
+    NewComponent top
+    (
+        user_led => led,
+        clk50    => CLK,
+    );
+}
