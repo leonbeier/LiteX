@@ -23,7 +23,8 @@ Here more information: <br/>
 ## Setup
 1. Make sure you have Quartus, Git and Python 3.6+ installed
 2. Make sure that the ```Path``` environment variable is set to ```C:\intelFPGA_lite\18.1\quartus\bin64\cygwin\bin``` 
-3. Open the console, go to the directory in that you want to install LiteX and download the setup file using ```wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py```
+3. Open the console, go to the directory in that you want to install LiteX and download the setup file using <br/>
+```wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py```
 4. Execute ```chmod +x litex_setup.py``` for linux
 5. Install LiteX and Migen using ```python litex_setup.py init install --user [your username]```
 6. Execute ```python litex_setup.py gcc``` and add the paths for the RISC-V toolchain to the ```Path``` environment variable <br/>
