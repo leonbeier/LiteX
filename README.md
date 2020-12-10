@@ -31,7 +31,7 @@ Here more information: <br/>
 ```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\bin``` and <br/>
 ```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\riscv64-unknown-elf\bin``` <br/>
 Restart the console after adding the paths
-7. Try an SoC design by writing
+7. Try an SoC design using
 ```
 cd litex-boards\litex_boards\targets
 python de10lite.py
