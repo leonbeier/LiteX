@@ -28,7 +28,8 @@ Here more information: <br/>
 5. Install LiteX and Migen using ```python litex_setup.py init install --user [your username]```
 6. Execute ```python litex_setup.py gcc``` and add the paths for the RISC-V toolchain to the ```Path``` environment variable <br/>
 ```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\bin``` and <br/>
-```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\riscv64-unknown-elf\bin```
+```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\riscv64-unknown-elf\bin``` <br/>
+Restart the console after adding the paths
 7. Try an SoC design by writing
 ```
 cd litex-boards\litex_boards\targets
