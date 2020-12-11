@@ -21,17 +21,26 @@ Here more information: <br/>
 # Use the LiteX SoC builder
 
 ## Setup
-1. Make sure you have Quartus, Git, Make and Python 3.6+ installed
-2. Make sure that the ```Path``` environment variable is set to ```C:\intelFPGA_lite\18.1\quartus\bin64\cygwin\bin``` 
-3. Open the console, go to the directory in that you want to install LiteX and download the setup file using <br/>
+1. Make sure you have Quartus, Git, Make and Python 3.6+ installed  <br/>
+Linux: <br/>
+```sudo apt-get install make gcc``` <br/>
+```sudo apt install git-all``` <br/>
+```sudo apt install python3.8``` <br/>
+Windows:
+- Make sure that the ```Path``` environment variable is set to ```C:\intelFPGA_lite\18.1\quartus\bin64\cygwin\bin``` 
+- Install Git here: [https://git-scm.com/download/win](https://git-scm.com/download/win)
+- Install Python here: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Open the console, go to the directory in that you want to install LiteX and download the setup file using <br/>
 ```wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py```
-4. Execute ```chmod +x litex_setup.py``` for linux
-5. Install LiteX and Migen using ```python litex_setup.py init install --user [your username]```
-6. Execute ```python litex_setup.py gcc``` and add the paths for the RISC-V toolchain to the ```Path``` environment variable <br/>
+- Linux: Execute ```chmod +x litex_setup.py```
+3. Install LiteX and Migen using <br/>
+Windows: ```python litex_setup.py init install --user``` <br/>
+Linux: ```python litex_setup.py init install --user```
+4. Execute ```python litex_setup.py gcc``` and add the paths for the RISC-V toolchain to the ```Path``` environment variable <br/>
 ```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\bin``` and <br/>
 ```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\riscv64-unknown-elf\bin``` <br/>
 Restart the console after adding the paths
-7. Try an SoC design using
+5. Try an SoC design using
 ```
 cd litex-boards\litex_boards\targets
 python de10lite.py
