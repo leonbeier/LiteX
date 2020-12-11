@@ -67,7 +67,7 @@ cd litex-boards\litex_boards\targets
 #### Windows:
 2. Find the Python user site using ```python -m site``` and copy the path after ```USER_SITE: ```
 3. Execute ```python setup.py install --prefix=[your path]Python38\\site-packages``` in the folder with the repository
-4. Try the CR00010 SoC design using
+4. Try the CR00010 SoC design using (you maybe have to edit the file depending on your hardware configuration)
 ```
 cd litex_boards\partner\targets
 python cr00010.py
@@ -75,7 +75,7 @@ python cr00010.py
 
 #### Linux:
 2. Execute ```sudo ./setup.py install``` in the folder with the repository
-3. Try the CR00010 SoC design using
+3. Try the CR00010 SoC design using (you maybe have to edit the file depending on your hardware configuration))
 ```
 cd litex_boards\partner\targets
 ./cr00010.py
