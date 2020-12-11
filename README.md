@@ -21,7 +21,7 @@ Here more information: <br/>
 # Use the LiteX SoC builder
 
 ## Setup
-1. Make sure you have Quartus, Git and Python 3.6+ installed
+1. Make sure you have Quartus, Git, GCC, Make and Python 3.6+ installed
 2. Make sure that the ```Path``` environment variable is set to ```C:\intelFPGA_lite\18.1\quartus\bin64\cygwin\bin``` 
 3. Open the console, go to the directory in that you want to install LiteX and download the setup file using <br/>
 ```wget https://raw.githubusercontent.com/enjoy-digital/litex/master/litex_setup.py```
