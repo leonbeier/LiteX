@@ -15,7 +15,7 @@ Here more information: <br/>
 http://blog.lambdaconcept.com/doku.php?id=migen:tutorial<br/>
 https://m-labs.hk/migen/manual/
 4. After you finished coding, open ```Terminal/New Terminal``` in the IDE and convert the python file using ```python [filename].py```
-5. In the folder ```build```, you can find the generated top.v file. Add the pins of the module to the Top.qsys.vhdp file so you can use your design together with your vhdp and vhdl files.
+5. In the folder ```build```, you can find the generated top.v file
 6. Now make sure your file with the ```Main``` component uses the new ```Top``` component and click on ```Compile```
 
 # Use the LiteX SoC builder
