@@ -1,7 +1,7 @@
 /* Machine-generated using Migen */
 module top(
-    output user_led,
-    input clk50
+	output user_led,
+	input clk50
 );
 
 reg [25:0] __main___counter = 26'd0;
@@ -21,14 +21,14 @@ assign por_clk = clk50;
 assign sys_rst = platform_int_rst;
 
 always @(posedge por_clk) begin
-    platform_int_rst <= 1'd0;
+	platform_int_rst <= 1'd0;
 end
 
 always @(posedge sys_clk) begin
-    __main___counter <= (__main___counter + 1'd1);
-    if (sys_rst) begin
-        __main___counter <= 26'd0;
-    end
+	__main___counter <= (__main___counter + 1'd1);
+	if (sys_rst) begin
+		__main___counter <= 26'd0;
+	end
 end
 
 endmodule

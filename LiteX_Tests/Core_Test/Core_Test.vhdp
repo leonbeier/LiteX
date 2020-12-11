@@ -1,11 +1,11 @@
 Main
 (
-    led : OUT STD_LOGIC := '0';
+    led : out STD_LOGIC := '0';
 )
 {
     NewComponent top
     (
-        clk50    => CLK,
         user_led => led,
+        clk50    => CLK,
     );
 }

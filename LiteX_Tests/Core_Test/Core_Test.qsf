@@ -10,15 +10,13 @@ set_global_assignment -name ENABLE_OCT_DONE OFF
 set_global_assignment -name USE_CONFIGURATION_DEVICE ON
 set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
 set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE IMAGE"
 set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
 set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
 set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
-set_global_assignment -name NUM_PARALLEL_PROCESSORS 8
-set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE IMAGE"
 set_global_assignment -name VHDL_FILE Generated/Test_Default.vhd
 set_global_assignment -name VERILOG_FILE build/top.v
 set_location_assignment PIN_D13 -to led
@@ -27,3 +25,5 @@ set_location_assignment PIN_H1 -to VS[0]
 set_location_assignment PIN_B7 -to VS[1]
 set_location_assignment PIN_L1 -to VS[2]
 set_location_assignment PIN_K13 -to VS_EN
+set_global_assignment -name NUM_PARALLEL_PROCESSORS 8
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
