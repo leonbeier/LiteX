@@ -7,11 +7,8 @@
       <Header>Test_Default.vhd</Header>
     </Items>
   </Items>
-  <Items xsi:type="ProjectFolder">
-    <Header>build</Header>
-    <Items xsi:type="ProjectFileVerilog">
-      <Header>top.v</Header>
-    </Items>
+  <Items xsi:type="ProjectFileVerilog">
+    <Header>Test.v</Header>
   </Items>
   <Items xsi:type="ProjectFileVHDP">
     <Header>Test_Default.vhdp</Header>

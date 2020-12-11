@@ -1,11 +1,14 @@
 Main
 (
+    btn : IN  STD_LOGIC;
     led : OUT STD_LOGIC := '0';
 )
 {
-    NewComponent top
+    NewComponent Test
     (
-        clk50    => CLK,
-        user_led => led,
+        btn     => btn,
+        sys_clk => CLK,
+        sys_rst => '0',
+        led     => led,
     );
 }

@@ -20,10 +20,11 @@ set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
 set_global_assignment -name NUM_PARALLEL_PROCESSORS 8
 set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "SINGLE IMAGE"
 set_global_assignment -name VHDL_FILE Generated/Test_Default.vhd
-set_global_assignment -name VERILOG_FILE build/top.v
+set_global_assignment -name VERILOG_FILE Test.v
 set_location_assignment PIN_D13 -to led
 set_location_assignment PIN_H6 -to CLK
 set_location_assignment PIN_H1 -to VS[0]
 set_location_assignment PIN_B7 -to VS[1]
 set_location_assignment PIN_L1 -to VS[2]
 set_location_assignment PIN_K13 -to VS_EN
+set_location_assignment PIN_D7 -to btn
