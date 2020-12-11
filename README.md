@@ -1,7 +1,7 @@
 # Program with Migen in the VHDPlus IDE
 
 ## Setup
-1. Install Python 3.6+
+1. Follow the first step of the LiteX setup below. If you want to use LiteX as well, you don't have to install migen separately.
 2. Clone or download and extract this repository http://github.com/m-labs/migen
 3. Open the console and go to the directory of the repository
 ```cd [directory]```
@@ -23,7 +23,7 @@ https://m-labs.hk/migen/manual/
 ## Setup
 #### Windows:
 1. Make sure you have Quartus, Git and Python 3.6+ installed  <br/>
-- Make sure that the ```Path``` environment variable is set to ```C:\intelFPGA_lite\18.1\quartus\bin64\cygwin\bin``` 
+- Make sure that the ```Path``` environment variable is set to ```C:\intelFPGA_lite\18.1\quartus\bin64\cygwin\bin```  and ```C:\intelFPGA_lite\18.1\quartus\bin64```
 - Install Git here: https://git-scm.com/download/win
 - Install Python here: https://www.python.org/downloads/
 2. Open the console, go to the directory in that you want to install LiteX and download the setup file using <br/>
