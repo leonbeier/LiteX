@@ -13,10 +13,12 @@
 3. Open the Test.py file to program with Migen <br/>
 Here more information: <br/>
 http://blog.lambdaconcept.com/doku.php?id=migen:tutorial<br/>
-https://m-labs.hk/migen/manual/
-4. After you finished coding, open ```Terminal/New Terminal``` in the IDE and convert the python file using ```python [filename].py```
-5. In the folder ```build```, you can find the generated top.v file
-6. Now make sure your file with the ```Main``` component uses the new ```Top``` component and click on ```Compile```
+https://m-labs.hk/migen/manual/ <br/>
+https://github.com/m-labs/migen/tree/master/examples/basic
+4. After you finished coding, open ```Terminal/New Terminal``` in the IDE and convert the python file using ```python [filename].py``` 
+(Check if `Extras/Settings/Detect external` file changes is enabled)
+5. The file Test.v created after running the python file
+6. Now make sure your file with the ```Main``` component uses the new updated and click on ```Compile```
 
 # Use the LiteX SoC builder
 
