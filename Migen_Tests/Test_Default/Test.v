@@ -12,7 +12,7 @@ reg [23:0] counter = 24'd0;
 always @(posedge sys_clk) begin
 	counter <= (counter + 1'd1);
 	if (btn) begin
-		led <= counter[23];
+		led <= counter[22];
 	end
 	if (sys_rst) begin
 		led <= 1'd0;

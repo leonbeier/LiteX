@@ -3,15 +3,15 @@
   <Header>Core_Test</Header>
   <Items xsi:type="ProjectFolder">
     <Header>build</Header>
-    <Items xsi:type="ProjectFile">
+    <Items xsi:type="ProjectFileVerilog">
       <Header>top.v</Header>
     </Items>
   </Items>
   <Items xsi:type="ProjectFileVHDP">
     <Header>Core_Test.vhdp</Header>
   </Items>
-  <Items xsi:type="ProjectFileVHDP">
-    <Header>Top.qsys.vhdp</Header>
+  <Items xsi:type="ProjectFile">
+    <Header>cr00010.py</Header>
   </Items>
   <Items xsi:type="ProjectFile">
     <Header>de10nano.py</Header>
@@ -26,6 +26,5 @@
     <string xsi:nil="true" />
   </CruviLSExtensions>
   <IOVoltage>0</IOVoltage>
-  <References />
   <UseShield>false</UseShield>
 </ProjectRoot>

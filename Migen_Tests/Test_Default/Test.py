@@ -12,7 +12,7 @@ m.outputs = [Signal(1, "led")]  #add led output
 #code
 counter = Signal(24)                                    #create counter signal
 m.sync += counter.eq(counter + 1)                       #count up every clock cycle
-m.sync += If(m.inputs[0], m.outputs[0].eq(counter[23])) #if button pressed, set led to the 24th bit of the counter
+m.sync += If(m.inputs[0], m.outputs[0].eq(counter[22])) #if button pressed, set led to the 24th bit of the counter
 
 #add inputs and outputs to i/os
 m.io = set()
