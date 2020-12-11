@@ -35,11 +35,16 @@ Windows:
 - Linux: Execute ```chmod +x litex_setup.py```
 3. Install LiteX and Migen using <br/>
 Windows: ```python litex_setup.py init install --user``` <br/>
-Linux: ```python litex_setup.py init install --user```
-4. Execute ```python litex_setup.py gcc``` and add the paths for the RISC-V toolchain to the ```Path``` environment variable <br/>
-```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\bin``` and <br/>
+Linux: ```./litex_setup.py init install --user```
+4. Download and extract the RISC-V toolchain <br/>
+Windows: ```python litex_setup.py gcc```
+Linux: ```./litex_setup.py gcc``` 
+5. Add the paths for the RISC-V toolchain to the ```Path``` environment variable <br/>
+Windows: Add ```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\bin``` and <br/>
 ```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\riscv64-unknown-elf\bin``` <br/>
-Restart the console after adding the paths
+- Restart the console after adding the paths
+Linux: Execute export ```PATH=$PATH:$PWD/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin/``` and <br/>
+```PATH=$PATH:$PWD/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/bin/```
 5. Try an SoC design using
 ```
 cd litex-boards\litex_boards\targets
