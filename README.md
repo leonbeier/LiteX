@@ -17,8 +17,8 @@ https://m-labs.hk/migen/manual/ <br/>
 https://github.com/m-labs/migen/tree/master/examples/basic
 4. After you finished coding, open ```Terminal/New Terminal``` in the IDE and convert the python file using ```python [filename].py``` 
 (Check if `Extras/Settings/Detect external` file changes is enabled)
-5. The file Test.v created after running the python file
-6. Now make sure your file with the ```Main``` component uses the new updated and click on ```Compile```
+5. The file Test.v is created after running the python file
+6. Now make sure your file with the ```Main``` component uses the new updated component and click on ```Compile```
 
 # Use the LiteX SoC builder
 
