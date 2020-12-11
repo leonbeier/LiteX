@@ -22,11 +22,11 @@ Here more information: <br/>
 
 ## Setup
 1. Make sure you have Quartus, Git, Make and Python 3.6+ installed  <br/>
-Linux: <br/>
+#### Linux: <br/>
 ```sudo apt-get install make gcc``` <br/>
 ```sudo apt install git-all``` <br/>
 ```sudo apt install python3.8``` <br/>
-Windows:
+#### Windows:
 - Make sure that the ```Path``` environment variable is set to ```C:\intelFPGA_lite\18.1\quartus\bin64\cygwin\bin``` 
 - Install Git here: [https://git-scm.com/download/win](https://git-scm.com/download/win)
 - Install Python here: [https://www.python.org/downloads/](https://www.python.org/downloads/)
@@ -40,10 +40,13 @@ Linux: ```./litex_setup.py init install --user```
 Windows: ```python litex_setup.py gcc```
 Linux: ```./litex_setup.py gcc``` 
 5. Add the paths for the RISC-V toolchain to the ```Path``` environment variable <br/>
-Windows: Add ```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\bin``` and <br/>
-```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\riscv64-unknown-elf\bin``` <br/>
-- Restart the console after adding the paths
-Linux: Execute export ```PATH=$PATH:$PWD/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin/``` and <br/>
+#### Windows: 
+Add ```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\bin``` and <br/>
+```C:\Users\[your path]\litex\riscv64-unknown-elf-gcc...\riscv64-unknown-elf\bin``` using the GUI and restart the console or execute <br/>
+```set PATH=%PATH%;$PWD\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\bin``` and <br/>
+```set PATH=%PATH%;$PWD\riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-w64-mingw32\riscv64-unknown-elf\bin```
+#### Linux: 
+Execute ```PATH=$PATH:$PWD/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin/``` and <br/>
 ```PATH=$PATH:$PWD/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/riscv64-unknown-elf/bin/```
 5. Try an SoC design using
 ```
